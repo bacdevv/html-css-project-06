@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>An Interactive Designer</title>
+
+		<!-- Favicon -->
+		<link rel="icon" type="image/png" href="./assets/favicon/favicon-96x96.png" sizes="96x96" />
+		<link rel="icon" type="image/svg+xml" href="./assets/favicon/favicon.svg" />
+		<link rel="shortcut icon" href="./assets/favicon/favicon.ico" />
+		<link rel="apple-touch-icon" sizes="180x180" href="./assets/favicon/apple-touch-icon.png" />
+		<meta name="apple-mobile-web-app-title" content="Designer" />
+		<link rel="manifest" href="./assets/favicon/site.webmanifest" />
+
+		<!-- Embed Fonts -->
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap"
+			rel="stylesheet"
+		/>
+
+		<!-- Stylsheet CSS -->
+		<link rel="stylesheet" href="./assets/css/reset.css" />
+		<link rel="stylesheet" href="./assets/css/grid.css" />
+		<link rel="stylesheet" href="./assets/css/styles.css" />
+		<link rel="stylesheet" href="./assets/css/responsive.css" />
+	</head>
+	<body>
+			<!-- Header -->
+			<header class="header fixed">
+				<div class="container">
+					<nav class="navbar">
+						<img src="./assets/logo/logo.svg" alt="" class="logo" />
+	
+						<div class="navbar__cta">
+							<a href="#!" class="navbar__img-group">
+								<figure class="navbar__img-wrap">
+									<img src="./assets/icons/email.svg" alt="" class="navbar__img" />
+								</figure>
+								<span class="navbar__img-text hide-on-mobile">hi@arif.interactive</span>
+							</a>
+	
+							<a href="#!" class="navbar__img-wrap">
+								<label for="menu-toggle">
+									<img src="./assets/icons/bar.svg" alt="" class="navbar__img" />
+								</label>
+							</a>
+						</div>
+					</nav>
+				</div>
+			</header>
+
+			<!-- Mobile Header -->
+			<header class="mobile-header">
+				<input class="menu-checkbox" type="checkbox" name="" id="menu-toggle" hidden />
+
+				<!-- Overlay -->
+				<label for="menu-toggle" class="menu-overlay"></label>
+
+				<!-- Drawer -->
+				<div class="menu-drawer">
+					<div class="menu__inner">
+						<img src="./assets/logo/logo.svg" alt="" class="logo" />
+
+						<nav class="navbar navbar__mobile">
+							<ul class="navbar__mobile-list">
+								<li class="navbar__mobile-item">
+									<a href="#!" class="navbar__mobile-link">Projects</a>
+								</li>
+								<li class="navbar__mobile-item">
+									<a href="#!" class="navbar__mobile-link">Journey</a>
+								</li>
+								<li class="navbar__mobile-item">
+									<a href="#!" class="navbar__mobile-link">Service</a>
+								</li>
+								<li class="navbar__mobile-item">
+									<a href="#!" class="navbar__mobile-link">Contact</a>
+								</li>
+							</ul>
+						</nav>
+
+						<a href="#!" class="navbar__img-group navbar__mobile-group">
+							<figure class="navbar__img-wrap">
+								<img src="./assets/icons/email.svg" alt="" class="navbar__img" />
+							</figure>
+							<span class="navbar__img-text navbar__mobile-text">hi@arif.interactive</span>
+						</a>
+					</div>
+				</div>
+			</header>
+
+			<main style="height: 5000px">
+				<!-- Hero -->
+				<section class="hero">
+					<div class="container">
+						<h1 class="section-heading hero__heading">An Interactive Designer</h1>
+						<p class="section-desc hero__desc">
+							Lorem ipsum dolor sit amet, consectetur adipiscing elit. In urna, non nisl tincidunt ut
+							elementum turpis.
+						</p>
+						<div class="hero__row">
+							<a href="#!" class="btn hero__btn">Book a Call</a>
+							<a href="#!" class="hero__link">My Works</a>
+						</div>
+	
+						<div class="hero__social">
+							<p class="section-desc hero__social-text">Follow me on:</p>
+							<a href="#!" class="hero__img-wrap">
+								<img src="./assets/icons/be.svg" alt="" class="hero__social-link" />
+							</a>
+	
+							<a href="#!" class="hero__img-wrap">
+								<img src="./assets/icons/basketball.svg" alt="" class="hero__social-link" />
+							</a>
+	
+							<a href="#!" class="hero__img-wrap">
+								<img src="./assets/icons/instagram.svg" alt="" class="hero__social-link" />
+							</a>
+						</div>
+	
+						<figure class="hero__wrap">
+							<img src="./assets/img/hero-avatar-01.png" alt="" class="hero__img" />
+							<img src="./assets/img/decorate-avt-01.png" alt="hero__decorate-img" />
+						</figure>
+					</div>
+				</section>
+
+				<!-- Client -->
+				<section class="client">
+					<div class="container">
+						<h2 class="section-heading client__heading">Meet my recent clients</h2>
+						<div class="client__list">
+							<figure class="client-item">
+								<img src="./assets/logo/google.svg" alt="" class="client-item__logo" />
+							</figure>
+	
+							<figure class="client-item">
+								<img src="./assets/logo/warner.svg" alt="" class="client-item__logo" />
+							</figure>
+	
+							<figure class="client-item">
+								<img src="./assets/logo/upwork.svg" alt="" class="client-item__logo" />
+							</figure>
+	
+							<figure class="client-item">
+								<img src="./assets/logo/cloud.svg" alt="" class="client-item__logo" />
+							</figure>
+	
+							<figure class="client-item">
+								<img src="./assets/logo/mailchimp.svg" alt="" class="client-item__logo" />
+							</figure>
+	
+							<figure class="client-item">
+								<img src="./assets/logo/adobe.svg" alt="" class="client-item__logo" />
+							</figure>
+	
+							<figure class="client-item">
+								<img src="./assets/logo/woocommerce.svg" alt="" class="client-item__logo" />
+							</figure>
+	
+							<figure class="client-item">
+								<img src="./assets/logo/canva.svg" alt="" class="client-item__logo" />
+							</figure>
+						</div>
+					</div>
+				</section>
+
+				<!-- Special -->
+				<section class="special">
+					<div class="container">
+						<header class="speacial__header">
+							<h2 class="section-heading">Specialities</h2>
+							<p class="section-desc special__desc">
+								Lorem ipsum dolor sit amet, consectetur adipiscing elit. In urna, non nisl tincidunt
+								ut elementum turpis.
+							</p>
+						</header>
+	
+						<div class="special__list">
+							<div class="special-item">
+								<img src="./assets/logo/lighter.svg" alt="" class="special-item__icon" />
+								<h3 class="special-item__heading">Product design</h3>
+								<p class="special-item__desc section-desc">
+									Lorem ipsum dolor sit amet, solor adipiscing elit. Non nisl solor ut elementum
+									turpis.
+								</p>
+							</div>
+	
+							<div class="special-item">
+								<img src="./assets/logo/lighter.svg" alt="" class="special-item__icon" />
+								<h3 class="special-item__heading">Product design</h3>
+								<p class="special-item__desc section-desc">
+									Lorem ipsum dolor sit amet, solor adipiscing elit. Non nisl solor ut elementum
+									turpis.
+								</p>
+							</div>
+	
+							<div class="special-item">
+								<img src="./assets/logo/lighter.svg" alt="" class="special-item__icon" />
+								<h3 class="special-item__heading">Product design</h3>
+								<p class="special-item__desc section-desc">
+									Lorem ipsum dolor sit amet, solor adipiscing elit. Non nisl solor ut elementum
+									turpis.
+								</p>
+							</div>
+						</div>
+	
+						<div class="dots special__dots">
+							<div class="dot"></div>
+							<div class="dot dot--active"></div>
+							<div class="dot"></div>
+						</div>
+					</div>
+				</section>
+
+				<!-- Project -->
+				<section class="project">
+					<div class="container">
+						<header class="project__header">
+							<h2 class="section-heading project__heading">Take a look at my recent projects</h2>
+							<p class="section-desc project__desc">
+								Lorem ipsum dolor sit amet, consectetur adipiscing elit. In urna, non nisl tincidunt
+								ut elementum turpis.
+							</p>
+						</header>
+	
+						<div class="project__list">
+							<div class="project-item">
+								<div class="project-item__content">
+									<h3 class="project-item__title">Wally Website</h3>
+									<p class="project-item__desc">Lorem ipsum dolor amet, consectetur adipiscing st elit. </p>
+									<a href="#!" class="project-item__tag">Case Study</a>
+								</div>
+	
+								<figure class="project-item__media">
+									<img src="./assets/img/project-01.jpg" alt="" class="project-item__img">
+								</figure>
+							</div>
+	
+							<div class="project-item">
+								<div class="project-item__content">
+									<h3 class="project-item__title">Banking App</h3>
+									<p class="project-item__desc">Lorem ipsum dolor amet, consectetur adipiscing st elit. </p>
+									<a href="#!" class="project-item__tag">Case Study</a>
+								</div>
+	
+								<figure class="project-item__media">
+									<img src="./assets/img/project-02.jpg" alt="" class="project-item__img">
+								</figure>
+							</div>
+	
+							<div class="project-item">
+								<div class="project-item__content">
+									<h3 class="project-item__title">Web App</h3>
+									<p class="project-item__desc">Lorem ipsum dolor amet, consectetur adipiscing st elit. </p>
+									<a href="#!" class="project-item__tag">Case Study</a>
+								</div>
+	
+								<figure class="project-item__media">
+									<img src="./assets/img/project-03.jpg" alt="" class="project-item__img">
+								</figure>
+							</div>
+	
+							<div class="project-item">
+								<div class="project-item__content">
+									<h3 class="project-item__title">Oculus Website</h3>
+									<p class="project-item__desc">Lorem ipsum dolor amet, consectetur adipiscing st elit. </p>
+									<a href="#!" class="project-item__tag">Case Study</a>
+								</div>
+	
+								<figure class="project-item__media">
+									<img src="./assets/img/project-04.jpg" alt="" class="project-item__img">
+								</figure>
+							</div>
+						</div>
+	
+						<footer class="project__footer"><div class="project__cta"><a href="#!" class="btn project__btn">All Projects</a></footer>
+					</div>
+				</section>
+			</main>
+	</body>
+</html>
