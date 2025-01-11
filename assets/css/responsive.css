@@ -4,8 +4,19 @@
 	display: none;
 }
 
+.client__list {
+	grid-template-columns: 2fr 1fr;
+}
+
+.client-item {
+	text-align: center;
+}
+
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) {
+	.client__list {
+		grid-template-columns: 1fr 1fr;
+	}
 }
 
 /* Medium devices (tablets, 768px and up) */
